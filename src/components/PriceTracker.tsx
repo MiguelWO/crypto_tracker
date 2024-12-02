@@ -34,6 +34,9 @@ const PriceTracker = () => {
     const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL_COIN;
     const API_KEY = process.env.NEXT_PUBLIC_API_KEY_COIN;
 
+    console.log(BASE_URL);
+    console.log(API_KEY);
+
     useEffect(() => {
         const fetchCryptoData = async () => {
             try {
