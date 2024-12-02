@@ -63,13 +63,6 @@ npm run dev
 yarn dev
 ```
 
-## 🌐 Deployment
-
-The project is optimized for Vercel deployment:
-- Easily deployable with zero configuration
-- Automatic environment variable handling
-- Serverless function support
-
 ## 🔍 API Usage
 
 - Cryptocurrency data fetched from CoinGecko API
@@ -87,12 +80,6 @@ The project is optimized for Vercel deployment:
 ## 📝 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## 📞 Contact
-
-Your Name - [Your Email]
-
-Project Link: [https://github.com/yourusername/bitcoin-dashboard](https://github.com/yourusername/bitcoin-dashboard)
 
 ## 🙏 Acknowledgements
 
