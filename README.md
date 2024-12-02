@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Bitcoin Dashboard
 
-## Getting Started
+## Overview
 
-First, run the development server:
+A modern, real-time cryptocurrency tracking application built with Next.js, TypeScript, and Tailwind CSS. This dashboard provides live price tracking, historical price charts, and a Bitcoin halving countdown.
 
+![Dashboard Preview](/dashboard-preview.png)
+
+## 🌟 Features
+
+### Price Tracker
+- Real-time cryptocurrency price updates
+- Support for Bitcoin, Ethereum, and Cardano
+- 24-hour price change percentage
+- Interactive price history chart
+- Responsive design
+
+### Halving Countdown
+- Live countdown to the next Bitcoin halving
+- Accurate block height tracking
+- Estimated next halving block display
+
+## 🛠 Technologies
+
+- **Frontend**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Charting**: Recharts
+- **API**: CoinGecko API
+- **Icons**: Lucide React
+
+## 📦 Prerequisites
+
+- Node.js (v18 or later)
+- npm or yarn
+- CoinGecko API Key
+
+## 🔧 Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/bitcoin-dashboard.git
+cd bitcoin-dashboard
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Create a `.env.local` file in the project root
+```bash
+NEXT_PUBLIC_BASE_URL_COIN=https://api.coingecko.com/api/v3
+NEXT_PUBLIC_API_KEY_COIN=your_coingecko_api_key
+```
+
+4. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project is optimized for Vercel deployment:
+- Easily deployable with zero configuration
+- Automatic environment variable handling
+- Serverless function support
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔍 API Usage
 
-## Learn More
+- Cryptocurrency data fetched from CoinGecko API
+- Real-time price updates every minute
+- Block height retrieved from Blockchain.info
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 License
 
-## Deploy on Vercel
+Distributed under the MIT License. See `LICENSE` for more information.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📞 Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Your Name - [Your Email]
+
+Project Link: [https://github.com/yourusername/bitcoin-dashboard](https://github.com/yourusername/bitcoin-dashboard)
+
+## 🙏 Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [CoinGecko API](https://www.coingecko.com/en/api/documentation)
+- [Recharts](http://recharts.org/)
